@@ -1,6 +1,5 @@
 # NFTs_Upload_To_OpenSea
 
-# INSTRUCTIONS
 1. Download Python and Chrome browser 
 2. pip install -r requirements.txt
 5. python openseaupload.py (Run the script)
