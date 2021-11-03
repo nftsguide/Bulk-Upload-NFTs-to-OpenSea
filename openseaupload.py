@@ -104,7 +104,6 @@ def main_program_loop():
     loop_file_format = file_format.input_field.get()
     loop_external_link = str(external_link.input_field.get())
     loop_description = description.input_field.get()
-    #is_polygon=False
 
     ##chromeoptions
     opt = Options()
@@ -189,7 +188,12 @@ def main_program_loop():
         wait_css_selector("button[type='submit']")
         listing = driver.find_element_by_css_selector("button[type='submit']")
         listing.click()
-        time.sleep(10)
+        time.sleep(5)
+        
+        wait_css_selector("button[class='Blockreact__Block-sc-1xf18x6-0 Buttonreact__StyledButton-sc-glfma3-0 bhqEJb fzwDgL']")
+        sign = driver.find_element_by_css_selector("button[class='Blockreact__Block-sc-1xf18x6-0 Buttonreact__StyledButton-sc-glfma3-0 bhqEJb fzwDgL']")
+        sign.click()
+        time.sleep(2)
         
         for handle in driver.window_handles:
             if handle != main_page:
