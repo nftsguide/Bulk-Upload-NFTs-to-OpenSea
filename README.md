@@ -7,3 +7,6 @@
 8. Set up your metamask wallet and login to Opensea using your wallet
 9. Open the collection you want to upload to and copy the link
 12. Click Start button
+
+
+Credits @cloudmaking 
